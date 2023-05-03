@@ -1,4 +1,4 @@
-<html>
+<!-- <html>
 <head>
     <link rel="stylesheet" href="./style.css" />
     <title>Test Page</title>
@@ -51,9 +51,43 @@ other HTML processors.</p>
     </table>
 </body>
 
-
+The CSS in this HTML page defines both the colour of the page and the colour of the text.
 
   <p>This page hurts my retinas!</p>
 
+</html>*/ -->
+
+<html>
+<head>
+<link type='text/css' rel='stylesheet' href='./style.css'/>
+<title>Experiments with CSS</title>
+<style type='text/css'> /* These styles will remove all padding and 
+margins on h1, h2 and p elements, and make the headings red. */
+
+
+</style>
+</head>
+<body>
+   <div id="wrapper">
+   <h1>Big page heading</h1>
+   <p class="introduction">This is the introductory paragraph.</p>
+   <p>Another paragraph waffling on about something, my favourite TV show, 
+for three or four sentences.</p>
+
+   <div id="films">
+      <h2><strong>A simple subhead:</strong> Films</h2>
+      <p class='recent'>A short discussion of the last three films I saw.</p>
+      <p>A discussion about my least favourite film</p>
+
+    <div class="movieQuote">
+       <blockquote>
+         <p>"Stop thinking like a cop: start thinking playstation. Just blow 
+stuff up!"</p>
+         <p class="source">XXX</p>
+      </blockquote>
+    </div> <!-- end of movieQuote div -->
+   </div> <!-- end of div#films -->
+   </div><!-- end of div#wrapper -->
+</body>
+
 </html>
-The CSS in this HTML page defines both the colour of the page and the colour of the text.
