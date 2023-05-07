@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  background-color: #1dbf73;
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+nav span {
+  font-weight: 900;
+  font-size: 25px;
+  margin-left: 100px;
+}
+
+main {
+  margin: 5%;
+}
+
+p {
+  font-size: 20px;
+  margin: 20px 0px;
+}
+
+.auth {
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.auth span {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  height: 50%;
+  width: 50%;
+  object-fit: cover;
+}
+
+.pardalote{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.purple-swamp{
+
+    display: none;
+    flex-direction: column;
+}
+
+.white-headed-stilt{
+
+    display: none;
+    flex-direction: column;
+}
+
+.inland-thornbill{
+
+    display: none;
+    flex-direction: column;
+}
+.rose-robin{
+
+    display: none;
+    flex-direction: column;
+}
+
+
+button {
+  background-color: #1dbf73;
+  padding: 15px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 18px;
+  border: none;
+  margin: 20px 0px;
+  width: 300px;
+}
