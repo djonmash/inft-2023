@@ -1,0 +1,34 @@
+:root{
+
+    --primary-color: rgb(255, 255, 255);
+    --secondary-color: #ebebeb;
+    --bg-color: rgb(27, 168, 14); 
+    --font-color: black;
+    --heading-color: rgb(27, 168, 14);
+    
+}
+[data-theme='dark'] {
+   
+    --primary-color: rgb(0, 0, 0);
+    --secondary-color: #ebebeb;
+    --bg-color: rgb(27, 168, 14); 
+    --font-color: #fff;
+    --heading-color: rgb(168, 14, 114);
+}
+
+body { 
+    background-color: var(--primary-color);
+    color: var(--font-color); /* background color variable */
+}
+
+h1{
+
+    color:var(--heading-color)
+}
+
+
+
+#switch{
+
+    cursor: pointer;
+}
